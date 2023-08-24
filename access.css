@@ -335,7 +335,15 @@ section {
   line-height: 2;
   color: #777;
 }
-
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+.slika{
+    background-color: beige;
+}
 
 .contact .row {
   display: -webkit-box;
