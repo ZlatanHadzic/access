@@ -553,6 +553,7 @@ section {
     margin: 0.5rem 0; /* Adjust margins for spacing */
     font-size: 1.5rem; /* Adjust font size */
     display: inline-block; /* Display paragraphs in a line */
+    font-size: 10px;
   }
   .header #menu-btn {
     display: inline-block;
