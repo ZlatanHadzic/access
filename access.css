@@ -548,6 +548,7 @@ section {
     border-top: 0.2rem solid #334;
     border-bottom: 0.2rem solid #334;
     display: flex;
+    
   }
   .header .contact-info p {
     margin: 0.5rem 0; /* Adjust margins for spacing */
@@ -584,6 +585,7 @@ section {
   }
   .language-buttons {
     display: flex;
+   
   }
 }
 
@@ -601,6 +603,11 @@ section {
     font-size: 3rem;
   }
 }
+
+
+
+
+
 
 
 
