@@ -152,7 +152,7 @@ section {
 .header #menu-btn {
   font-size: 3rem;
   cursor: pointer;
-  color: white;
+  color: black;
   display: none;
 }
 .header .navbar .links.black-text a {
