@@ -109,7 +109,7 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: white;
+  background: black;
   border-bottom: 0.2rem solid #334;
   position: relative;
   z-index: 1000;
@@ -140,7 +140,7 @@ section {
   margin-left: 2rem;
   font-size: 2rem;
   text-transform: capitalize;
-  color: #334;
+  color: white;
   transition: color 0.3s; /* Adding smooth transition for color change */
 }
 
@@ -178,7 +178,7 @@ section {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 3rem;
-  background-color: beige;
+  background-color: #CCCCCC;
  
 }
 
@@ -202,7 +202,7 @@ section {
 .home .content h3 {
   font-size: 4.5rem;
   text-transform: capitalize;
-  color: brown;
+  color: black;
   font-weight: bold;
 }
 .links a#bs,
@@ -244,7 +244,7 @@ section {
   -ms-flex-wrap: wrap-reverse;
       flex-wrap: wrap-reverse;
   gap: 3rem;
-  background-color:#ECEBE4 ;
+  background-color:#CCCCCC ;
   
 }
 
@@ -285,7 +285,7 @@ section {
     }
   }
 .services {
-  background-color:beige;
+  background-color:#CCCCCC;
   
 }
 
@@ -342,7 +342,7 @@ section {
         width: 50%;
       }
 .slika{
-    background-color:#ECEBE4 ;
+    background-color:#CCCCCC ;
 }
 
 .contact .row {
@@ -355,7 +355,7 @@ section {
   
 }
 .contact{
-  background-color: beige;
+  background-color:#CCCCCC ;
 }
 .contact .row .map {
   -webkit-box-flex: 1;
@@ -431,7 +431,7 @@ section {
 }
 
 .footer {
-  background-color: #ECEBE4;
+  background-color: #CCCCCC;
 }
 
 .footer .box-container {
