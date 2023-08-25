@@ -244,7 +244,7 @@ section {
   -ms-flex-wrap: wrap-reverse;
       flex-wrap: wrap-reverse;
   gap: 3rem;
-  background-color: beige;
+  background-color:#ECEBE4 ;
   
 }
 
@@ -285,7 +285,7 @@ section {
     }
   }
 .services {
-  background-color: beige;
+  background-color:beige;
   
 }
 
@@ -342,7 +342,7 @@ section {
         width: 50%;
       }
 .slika{
-    background-color: beige;
+    background-color:#ECEBE4 ;
 }
 
 .contact .row {
