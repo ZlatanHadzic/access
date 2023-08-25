@@ -152,7 +152,7 @@ section {
 .header #menu-btn {
   font-size: 3rem;
   cursor: pointer;
-  color: #334;
+  color: black;
   display: none;
 }
 .language-buttons {
