@@ -140,7 +140,7 @@ section {
   margin-left: 2rem;
   font-size: 2rem;
   text-transform: capitalize;
-  color: brown;
+  color: white;
   transition: color 0.3s;
 }
 
@@ -584,7 +584,7 @@ section {
     top: 99%;
     left: 0;
     right: 0;
-    background: #fff;
+    background: black;
     border-top: 0.2rem solid #334;
     border-bottom: 0.2rem solid #334;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
