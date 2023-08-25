@@ -90,13 +90,13 @@ section {
   color: white;
 }
 .header .contact-info a {
-  color: white; /* Set the link color to white */
-  transition: color 0.3s; /* Adding smooth transition for color change */
+  color: white; 
+  transition: color 0.3s; 
 }
 
 .header .contact-info a:hover {
   text-decoration: underline;
-  /* No need to change color on hover since it's white by default */
+
 }
 .header .navbar {
   padding: 2rem 10%;
@@ -141,7 +141,7 @@ section {
   font-size: 2rem;
   text-transform: capitalize;
   color: white;
-  transition: color 0.3s; /* Adding smooth transition for color change */
+  transition: color 0.3s;
 }
 
 .header .navbar .links a:hover {
@@ -155,16 +155,20 @@ section {
   color: black;
   display: none;
 }
+.header .navbar .links.black-text a {
+  color: black;
+ 
+}
 .language-buttons {
   display: flex;
   flex-direction: column;
-  margin-left: 20px; /* Adjust as needed */
+  margin-left: 20px; 
 }
 
 .language-buttons a {
   font-size: 20px;
   text-decoration: none;
-  color: white; /* adjust color as needed */
+  color: white; 
 }
 
 
