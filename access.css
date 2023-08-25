@@ -109,7 +109,7 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: black;
+  background: white;
   border-bottom: 0.2rem solid #334;
   position: relative;
   z-index: 1000;
@@ -140,7 +140,7 @@ section {
   margin-left: 2rem;
   font-size: 2rem;
   text-transform: capitalize;
-  color: white;
+  color: black;
   transition: color 0.3s;
 }
 
@@ -584,7 +584,7 @@ section {
     top: 99%;
     left: 0;
     right: 0;
-    background: black;
+    background: white;
     border-top: 0.2rem solid #334;
     border-bottom: 0.2rem solid #334;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
