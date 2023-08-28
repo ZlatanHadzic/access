@@ -182,7 +182,10 @@ section {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 3rem;
-  background-color: #d1d1d1;
+  background-image: url('datacenter5.jpg');
+  background-size: cover; /* Adjust to your preference */
+  background-position: center; /* Adjust to your preference */
+
  
 }
 
@@ -206,7 +209,7 @@ section {
 .home .content h3 {
   font-size: 4.5rem;
   text-transform: capitalize;
-  color: black;
+  color: white;
   font-weight: bold;
   opacity: 0;
   animation:  fade-in 1s ease-in-out forwards;
@@ -232,7 +235,7 @@ section {
 .home .content p {
   font-size: 1.5rem;
   line-height: 2;
-  color: black;
+  color: white;
   padding: 1rem 0;
   font-weight: bold;
   opacity: 0;
@@ -261,7 +264,8 @@ section {
   -ms-flex-wrap: wrap-reverse;
       flex-wrap: wrap-reverse;
   gap: 3rem;
-  background-color: #d1d1d1 ;
+  background-color: #d1d1d1;
+  
   
 }
 
@@ -304,7 +308,9 @@ section {
     opacity: 1;
 }
 .services {
-  background-color: #d1d1d1;
+    background-image: url('cyber2.jpg');
+    background-size: cover; /* Adjust to your preference */
+    background-position: center; /* Adjust to your preference */
   
 }
 
@@ -361,6 +367,7 @@ section {
         width: 50%;
       }
 .slika{
+    
     background-color: #d1d1d1 ;
 }
 
@@ -634,8 +641,6 @@ section {
     font-size: 3rem;
   }
 }
-
-
 
 
 
