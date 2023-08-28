@@ -183,8 +183,8 @@ section {
       flex-wrap: wrap;
   gap: 3rem;
   background-image: url('datacenter5.jpg');
-  background-size: cover; /* Adjust to your preference */
-  background-position: center; /* Adjust to your preference */
+  background-size: cover; 
+  background-position: center; 
 
  
 }
@@ -213,6 +213,8 @@ section {
   font-weight: bold;
   opacity: 0;
   animation:  fade-in 1s ease-in-out forwards;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
 }
 .links a#bs,
    .links a#en {
@@ -240,6 +242,8 @@ section {
   font-weight: bold;
   opacity: 0;
   animation:  fade-in 1s ease-in-out forwards;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
 }
 
 @keyframes fade-in {
@@ -290,7 +294,7 @@ section {
   text-transform: capitalize;
   color: black;
   padding-bottom: .5rem;
-  animation: fade-in 2s forwards; /* Apply the fade-in animation */
+  animation: fade-in 2s forwards; 
 
 }
 
@@ -309,9 +313,15 @@ section {
 }
 .services {
     background-image: url('cyber2.jpg');
-    background-size: cover; /* Adjust to your preference */
-    background-position: center; /* Adjust to your preference */
+    background-size: cover; 
+    background-position: center; 
   
+}
+.services .heading, .services .heading span {
+    color: rgb(255, 255, 255); 
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
 }
 
 .services .box-container {
@@ -580,18 +590,18 @@ section {
 
 @media (max-width: 768px) {
   .header .contact-info {
-    text-align: center; /* Center align the contact info */
-    padding: 1rem; /* Add some padding for better spacing */
-    background-color: brown; /* Set a background color for better visibility */
+    text-align: center; 
+    padding: 1rem; 
+    background-color: brown; 
     border-top: 0.2rem solid #334;
     border-bottom: 0.2rem solid #334;
     display: flex;
     
   }
   .header .contact-info p {
-    margin: 0.5rem 0; /* Adjust margins for spacing */
-    font-size: 1.5rem; /* Adjust font size */
-    display: inline-block; /* Display paragraphs in a line */
+    margin: 0.5rem 0; 
+    font-size: 1.5rem; 
+    display: inline-block; 
     font-size: 10px;
   }
   .header #menu-btn {
@@ -641,6 +651,9 @@ section {
     font-size: 3rem;
   }
 }
+
+
+
 
 
 
